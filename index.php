@@ -34,7 +34,7 @@
         </div>
         <div>
             <label for="">Data di nascita</label>
-            <input type="date" name="datanascita" value="2004-11-09" required>
+            <input type="date" name="datanascita" value="2010-01-17" required>
         </div>
         <div>
             <label for="">Codice fiscale</label>
@@ -186,8 +186,8 @@
         $columns = explode( ';', $row );
 
             
-        if(strtoupper($columns[5]) == $luogo){
-            $newcf .= $columns[19];
+        if(strtoupper($columns[0]) == $luogo && strtoupper($columns[1]) == $sigla){
+            $newcf .= $columns[2];
         }           
         }    
     }
