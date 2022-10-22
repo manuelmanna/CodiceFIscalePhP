@@ -34,7 +34,7 @@
         </div>
         <div>
             <label for="">Data di nascita</label>
-            <input type="date" name="datanascita" value="2010-01-17" required>
+            <input type="date" name="datanascita" required>
         </div>
         <div>
             <label for="">Codice fiscale</label>
